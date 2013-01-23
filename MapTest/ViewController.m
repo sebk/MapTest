@@ -49,6 +49,8 @@
     NSLog(@"DID SELECT");
 
     
+    //Popover isn't correct...may see here http://stackoverflow.com/questions/2763284/placing-arrow-of-uipopovercontroller-at-annotation-point-on-mapkit for a hint
+    
     DetailViewController *popUp=[[DetailViewController alloc] initWithNibName:@"DetailViewController_iPad" bundle:nil];
     
     _popView = [[UIPopoverController alloc]initWithContentViewController:popUp];
